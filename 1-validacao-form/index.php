@@ -1,3 +1,5 @@
+<!-- Validate Filters -->
+<!-- Documentação dos filtros de validação: https://www.php.net/manual/pt_BR/filter.filters.validate.php -->
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,7 +11,6 @@
 </head>
 
 <body>
-    <!-- Documentação dos filtros de validação: https://www.php.net/manual/pt_BR/filter.filters.validate.php -->
     <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
         <label for="idade">Idade: </label>
         <input type="text" name="idade">
