@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 23-Mar-2023 às 21:50
+-- Tempo de geração: 23-Mar-2023 às 21:53
 -- Versão do servidor: 10.4.27-MariaDB
 -- versão do PHP: 8.2.0
 
@@ -34,16 +34,6 @@ CREATE TABLE `clientes` (
   `email` varchar(255) NOT NULL,
   `idade` int(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Extraindo dados da tabela `clientes`
---
-
-INSERT INTO `clientes` (`id`, `nome`, `sobrenome`, `email`, `idade`) VALUES
-(5, 'Ricardo', 'Costa', 'ricardo@gmail.com', 18),
-(6, 'Carlos', 'Costa', 'joaocarneiro@gmail.com', 54),
-(8, 'Vinicius', 'Júnior', 'vinicius@gmail.com', 16),
-(9, 'Pedro', 'Silva', 'pedro@hotmail.com', 12);
 
 --
 -- Índices para tabelas despejadas
